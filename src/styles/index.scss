@@ -1,0 +1,7 @@
+@use "./palette.scss" as colors;
+@use "./typography.scss";
+
+body {
+   background-color: colors.$background-dark;
+   color: colors.$primary-color;
+}
