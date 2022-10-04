@@ -1,7 +1,8 @@
 @use "./palette.scss" as colors;
 @use "./typography.scss";
+@use "./grid.scss";
 
 body {
    background-color: colors.$background-dark;
-   color: colors.$primary-color;
+   color: colors.$text-color-light;
 }
