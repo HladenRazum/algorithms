@@ -3,6 +3,14 @@
 @use "./grid.scss";
 
 body {
-   background-color: colors.$background-dark;
-   color: colors.$text-color-light;
+   background-color: colors.$secondary-color;
+   color: colors.$black;
+}
+
+main {
+   padding: 2em 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
